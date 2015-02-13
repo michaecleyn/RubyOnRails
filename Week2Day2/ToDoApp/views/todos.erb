@@ -4,16 +4,12 @@
 	<%= todo.text %>
 	<% if todo.done %>
 		- DONE
+	<% elsif todo.important %>
+		<a href='/important/<%= i %>'>
+	 	- Important, Do Now
 	<% else %>
 		<a href='/done/<%= i %>'>
-			Complete </a>
-	<% end %>
-
-	<% if todo.important %>
-		- Important
-	<% else %>
-		<a href='/important/<%= i %>'>
-			Do
+		Complete </a>
 	<% end %>
 	</li>
 <!-- equal sign in erb means it prints to the screen -->

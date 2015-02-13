@@ -24,7 +24,7 @@ get ('/done/:i') do
 	redirect('/')
 end
 
-get ('/important/:i') do 
+get ('/important/:i') do
 	TODOS[params[:i].to_i].important = true
 	redirect('/')
 end
