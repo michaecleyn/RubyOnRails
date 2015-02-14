@@ -1,22 +1,23 @@
 <ul>
-<% TODOS.each_with_index do |todo, i| %>
-<li>
-	<%= todo.text %>
-	<% if todo.done %>
-		- DONE
-	<% elsif todo.important %>
-		<a href='/important/<%= i %>'>
-	 	- Important, Do Now
-	<% else %>
-		<a href='/done/<%= i %>'>
-		Complete </a>
-	<% end %>
+	<% TODOS.each_with_index do |todo, i| %>
+	<li>
+		<%= todo.text %>
+		<% if todo.done %>
+			- DONE
+		<% elsif todo.important %>
+			<a href='/important/<%= i %>'>
+	 		- Important, Do Now
+		<% else %>
+			<a href='/done/<%= i %>'>
+			- Complete </a>
+		<% end %>
 	</li>
-<!-- equal sign in erb means it prints to the screen -->
-<% end %>
+	<% end %>
 </ul>
 
 <form action="/add" method="post">
 	<input type="text" name="todo"/>
 	<input type="submit" value="Add To Do"/>
 </form>
+
+<!-- equal sign in erb means it prints to the screen -->
