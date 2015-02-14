@@ -7,7 +7,7 @@ end
 
 TODOS = []
 
-get '/' do
+get ('/') do
 	erb :todos, locals: {todos: TODOS}
 end
 
@@ -30,3 +30,4 @@ get ('/important/:i') do
 end
 
 # /add?todo=Talk to michael
+
