@@ -1,0 +1,15 @@
+0000000000000000000000000000000000000000 2d27df37851e544b41a1ca7fccb1fc96e55dce1b Michael Cleyn <michael.cleyn@shopify.com> 1423181198 -0500	commit (initial): commit exercise
+2d27df37851e544b41a1ca7fccb1fc96e55dce1b d81b3760dd3f75958c9b5005446f8df2489dd365 Michael Cleyn <michael.cleyn@shopify.com> 1423181258 -0500	commit: making another change
+d81b3760dd3f75958c9b5005446f8df2489dd365 e3f8bfa7df42f3e33acda863ec8bf22537b38c6c Michael Cleyn <michael.cleyn@shopify.com> 1423192876 -0500	commit: playing around with classes
+e3f8bfa7df42f3e33acda863ec8bf22537b38c6c d80fe467856e0eee6653fccfb73a97748181446a Michael Cleyn <michael.cleyn@shopify.com> 1423245781 -0500	commit: change parameter name to movie
+d80fe467856e0eee6653fccfb73a97748181446a d80fe467856e0eee6653fccfb73a97748181446a Michael Cleyn <michael.cleyn@shopify.com> 1423329310 -0500	checkout: moving from master to barcode
+d80fe467856e0eee6653fccfb73a97748181446a 85d5e5137cd8c19b88766791c789324353b1da31 Michael Cleyn <michael.cleyn@shopify.com> 1423329485 -0500	commit: adding class
+85d5e5137cd8c19b88766791c789324353b1da31 e8689b7b285c21a1cbcd84aafcc955994b2413a7 Michael Cleyn <michael.cleyn@shopify.com> 1423330421 -0500	commit: adding barcode method
+e8689b7b285c21a1cbcd84aafcc955994b2413a7 91793dd63c050d6a255b6705274bc72fe1dc068a Michael Cleyn <michael.cleyn@shopify.com> 1423334336 -0500	commit: added tweet class
+91793dd63c050d6a255b6705274bc72fe1dc068a d80fe467856e0eee6653fccfb73a97748181446a Michael Cleyn <michael.cleyn@shopify.com> 1423334401 -0500	checkout: moving from barcode to master
+d80fe467856e0eee6653fccfb73a97748181446a 2c88c67b93ac0ffba2cb167efc9f2b01d55a37a7 Michael Cleyn <michael.cleyn@shopify.com> 1423335106 -0500	commit: added post method
+2c88c67b93ac0ffba2cb167efc9f2b01d55a37a7 7b511c11c29444dc589699ff8ee98f9fabbed239 Michael Cleyn <michael.cleyn@shopify.com> 1423335236 -0500	commit (merge): adding barcode and post method
+7b511c11c29444dc589699ff8ee98f9fabbed239 f58ff66c5efdf06e17438cbbde9a4bc9e20f86f5 Michael Cleyn <michael.cleyn@shopify.com> 1423335390 -0500	commit: tweet method fixes
+f58ff66c5efdf06e17438cbbde9a4bc9e20f86f5 e4095e00ba93c4c05ff64377ce926dd6279046c0 Michael Cleyn <michael.cleyn@shopify.com> 1423335655 -0500	commit: remove commit_exercise.txt
+e4095e00ba93c4c05ff64377ce926dd6279046c0 ea127d41b87ea219426fb1e507e6a736309d96bc Michael Cleyn <michael.cleyn@shopify.com> 1423335753 -0500	commit: adding indentation
+ea127d41b87ea219426fb1e507e6a736309d96bc b03badcd959e5b9145f0de874f93ba8cbf84b591 Michael Cleyn <michael.cleyn@shopify.com> 1423336063 -0500	commit (merge): Merge branch 'master' of github.com:michaecleyn/playbox_repo
