@@ -11,7 +11,7 @@ get ('/') do
 	erb :todos, locals: {todos: TODOS}
 end
 
-post '/add' do
+post '/add:todo' do
 	t = Todo.new
 	t.text = params[:todo]
 
