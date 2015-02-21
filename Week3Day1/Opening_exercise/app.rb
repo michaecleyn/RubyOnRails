@@ -2,7 +2,5 @@ require 'sinatra'
 require 'sinatra/reloader'
 
 get ('/') do
-	"The params passed in are: #{params}"
+	params.to_s
 end
-
-
