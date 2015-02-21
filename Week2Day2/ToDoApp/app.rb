@@ -29,5 +29,13 @@ get ('/important/:i') do
 	redirect('/')
 end
 
+# this is the same as the to get requests above.
+post "done/:i" do
+	index = params[:i].to_i
+	todo = TODOS[:index]
+
+	todo.done = true
+end
+
 # /add?todo=Talk to michael
 
