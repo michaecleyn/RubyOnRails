@@ -1,6 +1,9 @@
+<!-- you would never want to use a GET request on a form because it would show the result in the query string. POST would not. -->
 <form action="/submitted" method="post">
-	Please submit your e-mail<br>
-	<input type="text" name=""/>
+	<label>Name</label>
+	<input type="text" name="name"/>
+	<label>Email</label>
+	<input type="text" name="email"/>
 	<input type="submit" value="Give email"/>
 </form>
 

@@ -1,1 +1,10 @@
-<p>Thanks for submitting your e-mail</p>
+<p>Thanks <%= fries %> for submitting your e-mail which is <%= burger %></p>
+
+<h4>list</h4>
+<ul>
+	<% CONTACTS.each_with_index do |milkshake, cherry| %>
+		<li><%= milkshake %> - <%= cherry + 1 %> </li>
+	<% end %>
+</ul>
+
+<%= CONTACTS %>
