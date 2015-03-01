@@ -1,6 +1,6 @@
 @import 'bootstrap';
 
-body {
+body, .jumbotron, .container {
 	background: -webkit-gradient(radial, center center, 0, center center, 1060, from(#b6eafc), to(#79c6e0));
 }
 
@@ -35,4 +35,38 @@ body {
 	text-decoration:none;
 	font-weight: bold;
 	margin-left: 6%;
+}
+
+.jumbotron h1, h2 {
+	font-family: "ProximaNovaLight", sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: -1px;
+}
+
+h2 {
+	font-size:20px;
+	line-height:5em;
+	font-weight:100;
+	color:#444;
+}
+
+form {
+	text-align: center;
+}
+
+
+.email {
+	height: 30px;
+	width: 240px;
+}
+
+.notify {
+	background-color: #7fc85c;
+	border:1px solid #85B667;
+	color:#221a17;
+	font-size:17px;
+	padding:11px 81px 11px 81px;
+	margin-top:10px;
 }
