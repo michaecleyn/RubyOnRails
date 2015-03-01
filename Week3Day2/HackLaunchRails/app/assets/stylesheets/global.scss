@@ -56,7 +56,6 @@ form {
 	text-align: center;
 }
 
-
 .email {
 	height: 30px;
 	width: 240px;
@@ -70,3 +69,22 @@ form {
 	padding:11px 81px 11px 81px;
 	margin-top:10px;
 }
+
+.notifylogin {
+	padding:11px 97px 11px 97px;
+}
+
+.notifylogin:hover {
+	background-color: #a3dd87;
+}
+
+.formlogin input {
+	margin:3px;
+}
+
+.gravatar {
+	display: block;
+	margin:0 auto;
+}
+
+

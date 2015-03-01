@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   # first thing is the controller and the second is the method in the controller
   get '/' => 'welcome#index'
   get '/submit' => 'welcome#submit'
+  get '/login' => 'login#login'
+  get '/admin' => 'login#admin'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
