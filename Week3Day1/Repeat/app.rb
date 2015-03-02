@@ -2,5 +2,11 @@ require 'sinatra'
 require 'sinatra/reloader'
 
 get '/' do
-	erb
+  erb :form
+end
+
+post '/submit' do
+	name = params[:name]
+	email = params[:email]
+	erb :submit, locals: {x: name, y: email}
 end
